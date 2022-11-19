@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  background-color: #ffc15e;
+  color: #1f1300;
+
+  font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+
+  margin-top: 180px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10%;
+  box-shadow: 10px 10px 1px #cc5803;
+  margin-right: 50px;
+}
+
+.info p {
+  font-style: italic;
+  margin: 0;
+}
+
+.social {
+  background-color: #f7934c;
+  border: 5px solid #cc5803;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social h2 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.social ol {
+  margin: 0;
+}
+
+.conteiner {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1300;
+  transition: all 0.15s;
+}
+
+a:hover {
+  color: rgb(153, 83, 4);
+}
+
+a:active {
+  color: rebeccapurple;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f7b05b;
+  margin-bottom: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #cc5803;
+  margin-bottom: 5px;
+  list-style: square;
+}
+
+.links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #cc5803;
+  height: 150px;
+  list-style: none;
+  padding: 0 50px;
+  margin-top: 0;
+}
+
+.links li:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7b05b;
+  height: 100px;
+  width: 100px;
+  border: 3px solid #1f1300;
+  border-radius: 50%;
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  background-color: #ffc15e;
+  color: #1f1300;
+
+  font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+
+  margin-top: 180px;
+}
+
+.conteiner {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1300;
+  transition: all 0.15s;
+}
+
+a:hover {
+  color: rgb(153, 83, 4);
+}
+
+a:active {
+  color: rebeccapurple;
+}
+
+.links {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #cc5803;
+  height: 150px;
+  list-style: none;
+  padding: 0 50px;
+  margin-top: 0;
+}
+
+.links li:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7b05b;
+  height: 100px;
+  width: 100px;
+  border: 3px solid #1f1300;
+  border-radius: 50%;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #cc5803;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #be801a;
+  border-bottom: 2px solid #be801a;
+  background-color: #f7b05b;
+  color: #1f1300;
+  font-family: inherit;
+  padding: 11px 0;
+  margin-bottom: 25px;
+  outline: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #1f1300;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 15px;
+}
+.row > .form-group {
+  flex: 1;
+}
+
+.row .form-group:first-child {
+  margin-right: 20px;
+}
+
+button {
+  background-color: #1f1300;
+  border: none;
+  color: #ffc15e;
+  padding: 10px 30px;
+  margin-right: 20px;
+  opacity: 1;
+  transition: all 0.25s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  background: #1f1300;
+  color: #ffc15e;
+  opacity: 1;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border: 1px dashed #1f1300;
+  padding: 20px;
+}
+
+table th {
+  border-bottom: 2px solid #1f1300;
+}
